@@ -6,7 +6,7 @@ def register(cb):
     cb(SpamMod())
 
 class SpamMod(loader.Module):
-    """Спам модуль"""
+    """ТЕСТ"""
     strings = {'name': 'Spam'}
 
     async def spamcmd(self, message):
